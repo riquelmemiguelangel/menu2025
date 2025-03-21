@@ -1,0 +1,73 @@
+table {
+  width: 80%;
+  border-collapse: collapse;
+  margin: auto; /* Centrar la tabla horizontalmente */
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2; /* Color de fondo para las celdas de encabezado */
+}
+
+td {
+  background-color: #e6f7ff; /* Color de fondo para las celdas de datos */
+}
+
+/* Definir el ancho de las columnas */
+th:nth-child(1), td:nth-child(1) {
+  width: 150px; /* Ancho de la primera columna */
+}
+
+th:nth-child(2), td:nth-child(2) {
+  width: 200px; /* Ancho de la segunda columna */
+}
+
+th:nth-child(3), td:nth-child(3) {
+  width: 250px; /* Ancho de la tercera columna */
+}
+
+/* Definir el alto de las filas */
+tr:nth-child(1) {
+  height: 50px; /* Alto de la primera fila */
+}
+
+tr:nth-child(2) {
+  height: 60px; /* Alto de la segunda fila */
+}
+
+tr:nth-child(3) {
+  height: 70px; /* Alto de la tercera fila */
+}
+
+tr:nth-child(4) {
+  height: 80px; /* Alto de la cuarta fila */
+}
+
+tr:nth-child(5) {
+  height: 90px; /* Alto de la quinta fila */
+}
+
+tr:nth-child(6) {
+  height: 100px; /* Alto de la sexta fila */
+}
+
+tr:nth-child(7) {
+  height: 110px; /* Alto de la séptima fila */
+}
+
+tr:nth-child(8) {
+  height: 120px; /* Alto de la octava fila */
+}
+
+/* Centrar la tabla */
+.table-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Ajusta la altura según sea necesario */
+}
